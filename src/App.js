@@ -6,10 +6,10 @@ import Logo from './components/Logo/Logo';
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <Logo />
-      {/*      <ImageLink />
-            <FaceRecognition />*/}
+    	<Navigation />
+    	<Logo />
+    	<ImageLinkForm />
+            {/*<FaceRecognition />*/}
     </div>
   );
 }
